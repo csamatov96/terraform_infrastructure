@@ -1,9 +1,9 @@
-instance_type		=	"t2.medium"
+instance_type		=	"t2.micro"
 key_name	    	=	"terraform"
 ami		        	=	"ami-02eac2c0129f6376b"    #Use Centos7  image
-vpc_id		    	=	"vpc-3b472741" #default VPC ID
+vpc_id		    	=	"vpc-6e705714" #default VPC ID
 user		    	=	"centos"
 ssh_key_location	=	"~/.ssh/id_rsa"        #Import pub key pair to aws as "terraform"
-zone_id			    =	"Z6XWWD56QDJWX"	   #Add hosted DNS zone ID here
-domain			    =	"csamatov.net"
+zone_id			    =	"Z0314866G54FPJ4WZW1G"	   #Add hosted DNS zone ID here
+domain			    =	"csamatov.com"
 region 			    = 	"us-east-1"
